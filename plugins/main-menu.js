@@ -342,18 +342,13 @@ let con = `┏━━━━━━━━━━━━━━━━━━━┓
 ┏┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╼
 ┆ Hᴀʟᴏ ${tagnya}
 ┢╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╼
-┣╌ ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫
-┃▷ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┃▷ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✘ Tidak'}
-┃▷ *Rᴏʟᴇ* : ${usrs.role}
-┃▷ *Lɪᴍɪᴛ* : ${usrs.limit}
-┃▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
-╰╴╴╴╳
-▎▍▌▋▊▍▋▍▌▌▌▋▍▎▎▍▍▎▎▎▎▍
-╭╴╴╼╳
-│◇ Aʟʟ Fɪᴛᴜʀ: ${totalf.length}
-╰╸╳`
+┣╌ ⟪ *Your Info* ⟫
+┃✘ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+┃✘ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+┃✘ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✘ Tidak'}
+┃✘ *Rᴏʟᴇ* : ${usrs.role}
+┃✘ *Lɪᴍɪᴛ* : ${usrs.limit}
+┃✘ *Lᴇᴠᴇʟ* : ${usrs.limit}`
 let hariRayaramadan = new Date('April 21, 2023 23:59:59') 
      let sekarangg = new Date().getTime() 
      let lebih = hariRayaramadan - sekarangg 
@@ -375,7 +370,7 @@ text: tett,
 footer: fot,
 mentions: await conn.parseMention(con),
 title: con,
-buttonText: `CLICK HERE ⎙`, 
+buttonText: `CLICK HERE`, 
 sections
 }
 if (teks == '404') {
@@ -541,7 +536,7 @@ let almenu = `┏┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╼
 │◇ Dᴀᴛᴀʙᴀsᴇ: ${totalreg}
 ╰╸╳`
 let nomorwa = '0'
-let nomorowm1 = '628812743180'
+let nomorowm1 = '6283811034750'
 let d1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
 let d2 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 let d3= 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'

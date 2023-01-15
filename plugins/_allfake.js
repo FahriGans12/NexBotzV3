@@ -223,7 +223,7 @@ function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
     let res = "Selamat malam 🌙"
     if (time >= 1) {
-        res = "Selamat Pagi 🗿"
+        res = "Selamat Pagi 🐋"
     }
     if (time >= 4) {
         res = "Selamat pagi 🌄"
